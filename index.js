@@ -5,7 +5,7 @@ const express = require('express'),
     app = express(),
     //port = process.env.PORT || 8080;
     //so the call to server will work as expected since it's local server
-    port = process.env.PORT || 8080,
+    port = 8080,
     votesModule = require('./votesModule.js'),
     votes = new votesModule();
     let request='';
